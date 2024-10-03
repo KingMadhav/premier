@@ -1,0 +1,428 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: monument;
+    src: url("MonumentExtended-Ultrabold.otf");
+}
+
+body {
+    padding-top: 40px;
+    overflow-x: hidden;
+}
+
+.nav {
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+sup {
+    font-size: 20px;
+}
+
+.premier h1 {
+    padding-top: 5px;
+    font-family: monument;
+    font-size: 40px;
+    padding-left: 70px;
+    align-items: center;
+    justify-content: center;
+}
+
+.premier h3 {
+    position: absolute;
+    left: 150px;
+    top: 80px;
+}
+
+.headings {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.headings h2 {
+    margin: 20px 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.headings:nth-last-child(1) {
+    margin-right: 70px;
+}
+
+.linehorizontal {
+    width: 100%;
+    height: 3px;
+    background-color: black;
+}
+
+.verticalline {
+    width: 3px;
+    height: 70px;
+    background-color: black;
+}
+
+.video_one {
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    /* transform: translate(-50%, -50%); */
+}
+
+.video_one video {
+    padding: 50px 250px;
+    height: 90%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.details {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    height: 250px;
+    width: 55%;
+    overflow: hidden;
+}
+
+.details .linehorizontal {
+    background-color: grey;
+
+}
+
+.circle {
+    font-family: sans-serif;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 50%;
+    border: 1px solid rgb(227, 224, 224);
+}
+
+.above {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px;
+    font-family: monument, sans-serif;
+}
+
+.explore {
+    display: flex;
+    justify-content: space-between;
+    gap: 480px;
+    font-size: 30px;
+}
+
+.images {
+    height: 150px;
+    width: 150px;
+    border: 1px solid rgba(245, 245, 245, 0.594);
+    border-radius: 50%;
+    background-size: cover;
+}
+
+.image1 {
+    background-image: url("img1.jpg");
+}
+
+.image2 {
+    background-image: url("img2.jpg");
+}
+
+.image3 {
+    background-image: url("img3.jpg");
+}
+
+.image4 {
+    background-image: url("img4.jpg");
+}
+
+.image5 {
+    background-image: url("img5.jpg");
+}
+
+.image6 {
+    background-image: url("img6.jpg");
+}
+
+.image7 {
+    background-image: url("img7.jpg");
+}
+
+.image8 {
+    background-image: url("img8.jpg");
+}
+
+.circular-images {
+    height: 60%;
+    gap: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    animation: anime 10s linear infinite;
+}
+
+.scroll {
+    height: 25vh;
+    display: flex;
+    gap: 50px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+.alphabet {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .9vw;
+    padding: 20px;
+    height: 10vh;
+    width: 100%;
+}
+
+.alphabet h5 {
+    font-size: 1.8vw;
+    font-weight: 500;
+    font-style: italic;
+    margin-right: 4%;
+    letter-spacing: 2px;
+    border-bottom: 2px solid black;
+}
+
+.alphabet h6 {
+    font-size: 1vw;
+    padding: .9vw;
+    font-weight: 500;
+    border: 1px solid black;
+    border-radius: 50%;
+    font-style: italic;
+}
+
+.left {
+    width: 50%;
+    margin: 3%;
+    object-fit: cover;
+    font-family: monument, sans-serif;
+    font-size: 40px;
+}
+
+.left img {
+    width: 100%;
+}
+
+.left-right {
+    display: flex;
+}
+
+.right {
+    height: 100%;
+    width: 35%;
+    object-position: 20%;
+    margin-top: 5%;
+}
+
+.right img {
+    height: 100%;
+    width: 100%;
+}
+
+.textarea-right {
+    display: flex;
+    gap: 30px;
+}
+
+.textleft {
+    font-size: 30px;
+    width: 50%;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+.textright {
+    font-size: 20px;
+    width: 55%;
+}
+
+.maisonartc {
+    width: 100%;
+    margin: 0% 5%;
+    height: 720px;
+    display: flex;
+}
+
+.maisonartcleftt {
+    width: 40%;
+}
+.maisonartcleftup {
+    margin:10vh 0vw;
+    width: 75%;
+    transform-origin: left;
+}
+
+.maisonartright img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.maisonartcleftdown {
+    font-family: 'Times New Roman', Times, serif;
+    margin-right: 50px;
+    margin-top: 10vh;
+    font-weight: 800;
+    font-size: 32px;
+}
+.bigimage img{
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+}
+.updates{
+    font-family: monument,sans-serif;
+    font-size: 50px;
+    text-align: center;
+    margin: 5% ;
+}
+.textupdate{
+    margin: 5%;
+}
+.update-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    transition: all  0.3s ease;
+
+}
+
+.update-category {
+    font-family:  Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    flex: 1;
+    margin: 1%;
+    text-align: left;
+}
+
+.update-content {
+    display: flex;
+    align-items: center;
+    flex: 2;
+    justify-content: space-around;
+}
+
+.update-content img {
+    width: 100px;
+    height: 100px;
+    border-radius: 60%;
+    margin-right: 20px;
+    z-index: 1;
+}
+
+.update-details {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.update-details span {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+.special-text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    text-align: left;
+    color: rgb(170, 148, 86);
+    z-index: 1;
+}
+.update-item {
+    position: relative;
+    overflow: hidden;
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+    transition: color 0.5s ease; 
+}
+
+.update-category, .update-details span {
+    z-index: 2;
+    position: relative;
+    color: black;
+    transition: color 0.5s ease; 
+}
+
+.update-content {
+    display: flex;
+    align-items: center;
+}
+
+.update-content img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.update-item::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    transform: translateX(-100%); 
+    z-index: 1; 
+    transition: transform 0.2s ease; 
+}
+
+.update-item:hover::before {
+    animation: backgroundExpand 0.5s forwards ease-in-out;
+}
+
+.update-item:hover .update-category,
+.update-item:hover .update-details span {
+    color: white;
+}
+
+.maisonartcleftup {
+    width: 60%;
+    margin:10% 5%;
+    animation: rotate 3s linear infinite; 
+    transform-origin: center; 
+}
+
+@keyframes anime {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg); 
+    }
+    to {
+        transform: rotate(360deg); 
+    }
+}
+@keyframes backgroundExpand {
+    0% {
+        transform: translateX(-100%); /* Start from the left */
+    }
+    100% {
+        transform: translateX(0); /* Fully revealed */
+    }
+}
